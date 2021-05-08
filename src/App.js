@@ -1,20 +1,21 @@
 import React from "react";
-import Header from "./components/Header";
-import Search from "./components/Search";
-import EmployeeTable from "./components/EmployeeTable";
-import Results from "./components/Results";
-
-import './App.css';
+import Employee from "./pages/Employee";
+import "./index.css";
+import { MDBContainer, MDBTypography } from 'mdbreact'
 
 function App() {
   return (
-    <div>
-        <Header />
-        <Search />
-        <EmployeeTable />
-        <Results />
+    <div className="App">
+      <header className="App-header">
+      <MDBContainer>    
+          <MDBTypography tag='h1' variant="h1">
+            HANH CORP GLOBAL EMPLOYEE DIRECTORY
+          </MDBTypography>
+          </MDBContainer> 
+      </header>
+      <Employee />
     </div>
-);
+  );
 }
 
 export default App;
