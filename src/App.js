@@ -1,5 +1,5 @@
 import React from "react";
-import Employee from "./pages/Employee";
+import Employee from "./components/Employee";
 import "./index.css";
 import { MDBContainer, MDBTypography } from 'mdbreact'
 
@@ -9,12 +9,13 @@ function App() {
       <header className="App-header">
       <MDBContainer>    
           <MDBTypography tag='h1' variant="h1">
-            HANH CORP GLOBAL EMPLOYEE DIRECTORY
-          </MDBTypography>
+            HANH SOLO CORPORATION
+            </MDBTypography>
+            <h3>GLOBAL EMPLOYEE DIRECTORY</h3>
           </MDBContainer> 
       </header>
       <Employee />
-    </div>
+    </div >
   );
 }
 
