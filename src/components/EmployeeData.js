@@ -5,6 +5,11 @@ const EmployeeData = (props) => {
   const data = {
     columns: [
       {
+        label: "Picture",
+        field: "picture",
+        sort: "asc",
+      },
+      {
         label: "Name",
         field: "name",
         sort: "asc",
@@ -20,10 +25,15 @@ const EmployeeData = (props) => {
         sort: "asc",
       },
       {
-        label: "Nationality",
-        field: "nat",
+        label: "Address",
+        field: "address",
         sort: "asc",
       },
+      {
+        label: "Country",
+        field: "country",
+        sort: "asc",
+      }
     ],
     rows:props.employees
   };

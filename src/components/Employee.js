@@ -17,10 +17,12 @@ class Employee extends React.Component {
         console.log(data)
         for (let i = 0; i < data.length; i++) {
           let erecord = {
+            picture: <img src={data[i].picture.medium} alt="employee" className="avatar" />,
             name: data[i].name.first + " " + data[i].name.last,
             email: data[i].email,
             phone: data[i].cell,
-            nationality: data[i].nat,
+            address: data[i].location.street.number + " " + data[i].location.street.name + ", " + data[i].location.city + ", " + data[i].location.state + ", " + data[i].location.postcode,
+            country: data[i].nat,
           };
           employeeRecordstemp.push(erecord);
         }

@@ -22,3 +22,8 @@ code {
   background-image: url("https://img.freepik.com/free-vector/halftone-hexagons-technology-dark-repetitive-seamless-pattern_87538-1132.jpg?size=338&ext=jpg");
   margin-bottom: 30px;
 }
+
+
+.avatar {
+  border-radius: 50%;
+}
