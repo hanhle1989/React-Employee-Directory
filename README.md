@@ -8,6 +8,10 @@ This employee directory was created using React. Random users are generated from
 ## Screenshot and Demo
 ![screenshot](./images/employee-directory-screenshot.jpg)
 
+</br>
+
+![demo](./images/employee-directory-demo.gif)
+
 
 ## Links
 
